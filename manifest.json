@@ -3,9 +3,8 @@
 
   "name": "WooTalk_Images",
   "description": "想在聊天過程中及時插入圖片嗎？ 快來試試這個插件吧！",
-  "version": "1.1.0",
+  "version": "1.2.0",
 
-  //"background": { "scripts": ["jquery-3.1.1.js","background.js"] },
   "permissions":
    [
       "tabs",
@@ -20,6 +19,6 @@
   },
   "content_scripts" : [{
           "matches" : [ "https://wootalk.today/*"],
-          "js" : ["jquery-3.1.1.js","content.js"]
+          "js" : ["content.js"]
   }]
 }
